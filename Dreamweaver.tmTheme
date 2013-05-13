@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Dreamweaver</string>
+	<key>author</key>
+	<string>Hasan Aydogdu- hasanaydogdu.com</string>
+	<key>settings</key>
+	<array>
+		<!-- Genel -->
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+				<key>background</key>
+				<string>#ffffff</string>
+				<key>caret</key>
+				<string>#000000</string>
+				<key>lineHighlight</key>
+				<string>#00000012</string>
+				<key>selection</key>
+				<string>#5ea0ffff</string>
+				<key>invisibles</key>
+				<string>#404040</string>
+			</dict>
+		</dict>
+		<!-- ansi blue -->
+		<dict>
+			<key>name</key>
+			<string>ansi.blue</string>
+			<key>scope</key>
+			<string>ansi.blue</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5555ffff</string>
+			</dict>
+		</dict>
+		<!-- ansi cyan -->
+		<dict>
+			<key>name</key>
+			<string>ansi.cyan</string>
+			<key>scope</key>
+			<string>ansi.cyan</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00bbbbff</string>
+			</dict>
+		</dict>
+		<!-- ansi green -->
+		<dict>
+			<key>name</key>
+			<string>ansi.green</string>
+			<key>scope</key>
+			<string>ansi.green</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00bb00ff</string>
+			</dict>
+		</dict>
+		<!-- ansi magenta -->
+		<dict>
+			<key>name</key>
+			<string>ansi.magenta</string>
+			<key>scope</key>
+			<string>ansi.magenta</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bb00bbff</string>
+			</dict>
+		</dict>
+		<!-- ansi red -->
+		<dict>
+			<key>name</key>
+			<string>ansi.red</string>
+			<key>scope</key>
+			<string>ansi.red</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bb0000ff</string>
+			</dict>
+		</dict>
+		<!-- ansi yellow -->
+		<dict>
+			<key>name</key>
+			<string>ansi.yellow</string>
+			<key>scope</key>
+			<string>ansi.yellow</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bbbb00ff</string>
+			</dict>
+		</dict>
+		<!-- ansi gray -->
+		<dict>
+			<key>name</key>
+			<string>ansi.gray</string>
+			<key>scope</key>
+			<string>ansi.gray</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#999999ff</string>
+			</dict>
+		</dict>
+		<!-- console error -->
+		<dict>
+			<key>name</key>
+			<string>console.error</string>
+			<key>scope</key>
+			<string>console.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff0000ff</string>
+			</dict>
+		</dict>
+		<!-- console input -->
+		<dict>
+			<key>name</key>
+			<string>console.input</string>
+			<key>scope</key>
+			<string>console.input</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3f7f5fff</string>
+			</dict>
+		</dict>
+		<!-- console prompt -->
+		<dict>
+			<key>name</key>
+			<string>console.prompt</string>
+			<key>scope</key>
+			<string>console.prompt</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2a00ffff</string>
+			</dict>
+		</dict>
+		<!-- console warning -->
+		<dict>
+			<key>name</key>
+			<string>console.warning</string>
+			<key>scope</key>
+			<string>console.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cccc33ff</string>
+			</dict>
+		</dict>
+		<!-- hyperlink -->
+		<dict>
+			<key>name</key>
+			<string>hyperlink</string>
+			<key>scope</key>
+			<string>hyperlink</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000ffff</string>
+			</dict>
+		</dict>
+		<!-- Unstaged files -->
+		<dict>
+			<key>name</key>
+			<string>Unstaged files</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffffff</string>
+				<key>background</key>
+				<string>#ff3d3dff</string>
+			</dict>
+		</dict>
+		<!-- Staged Files -->
+		<dict>
+			<key>name</key>
+			<string>Staged files</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000ff</string>
+				<key>background</key>
+				<string>#73ff65ff</string>
+			</dict>
+		</dict>
+		<!-- Markup Changed -->
+		<dict>
+			<key>name</key>
+			<string>markup.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffffff</string>
+				<key>background</key>
+				<string>#f5c411ff</string>
+			</dict>
+		</dict>
+		<!-- Markup Bold -->
+		<dict>
+			<key>name</key>
+			<string>markup.bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- Meta Diff Range -->
+		<dict>
+			<key>name</key>
+			<string>meta.diff.range</string>
+			<key>scope</key>
+			<string>meta.diff.range</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffffff</string>
+				<key>background</key>
+				<string>#3467d1ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<!-- Meta Diff Index -->
+		<dict>
+			<key>name</key>
+			<string>meta.diff.index</string>
+			<key>scope</key>
+			<string>meta.diff.index</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffffff</string>
+				<key>background</key>
+				<string>#3467d1ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<!-- Meta Separator Diff -->
+		<dict>
+			<key>name</key>
+			<string>meta.separator.diff</string>
+			<key>scope</key>
+			<string>meta.separator.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffffff</string>
+				<key>background</key>
+				<string>#3467d1ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<!-- Meta Diff Header -->
+		<dict>
+			<key>name</key>
+			<string>meta.diff.header</string>
+			<key>scope</key>
+			<string>meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffffff</string>
+				<key>background</key>
+				<string>#5685e3ff</string>
+			</dict>
+		</dict>
+		<!-- Meta Separator -->
+		<dict>
+			<key>name</key>
+			<string>meta.separator</string>
+			<key>scope</key>
+			<string>meta.separator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffffff</string>
+				<key>background</key>
+				<string>#3467d1ff</string>
+			</dict>
+		</dict>
+		<!-- Property -->
+		<dict>
+			<key>name</key>
+			<string>property</string>
+			<key>scope</key>
+			<string>property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#934b3cff</string>
+			</dict>
+		</dict>
+		<!-- Invisibles -->
+		<dict>
+			<key>name</key>
+			<string>invisibles</string>
+			<key>scope</key>
+			<string>invisibles</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bfbfbfff</string>
+			</dict>
+		</dict>
+		<!-- Text -->
+		<dict>
+			<key>name</key>
+			<string>text</string>
+			<key>scope</key>
+			<string>text</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000ff</string>
+			</dict>
+		</dict>
+		<!-- Constant Numeric -->
+		<dict>
+			<key>name</key>
+			<string>constant numeric</string>
+			<key>scope</key>
+			<string>constant.numeric - source.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ee000bff</string>
+			</dict>
+		</dict>
+		<!-- Comment General -->
+		<dict>
+			<key>name</key>
+			<string>comment general</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9a9a9aff</string>
+			</dict>
+		</dict>
+		<!-- Invalid -->
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ee000bff</string>
+				<key>background</key>
+				<string>#efff8aff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- Bracket Quote -->
+		<dict>
+			<key>name</key>
+			<string>Bracket Quote</string>
+			<key>scope</key>
+			<string>bracket.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FAF60A</string>
+			</dict>
+		</dict>
+
+		<!-- ### HTML ### -->
+
+		<!-- HTML - Doctype -->
+		<dict>
+			<key>name</key>
+			<string>html: doctype</string>
+			<key>scope</key>
+			<string>entity.name.tag.doctype.html, meta.tag.sgml, string.quoted.double.doctype.identifiers-and-DTDs.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#0080ff</string><!-- aqua -->
+			</dict>
+		</dict>
+		<!-- HTML - meta -->
+		<dict>
+			<key>name</key>
+			<string>html meta</string>
+			<key>scope</key>
+			<string>text.html meta.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00359eff</string>
+			</dict>
+		</dict>
+		<!-- HTML - String -->
+		<dict>
+			<key>name</key>
+			<string>html string</string>
+			<key>scope</key>
+			<string>text.html.basic meta.tag string.quoted - source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#001effff</string>
+			</dict>
+		</dict>
+		<!-- HTML - Constant -->
+		<dict>
+			<key>name</key>
+			<string>html constant</string>
+			<key>scope</key>
+			<string>text.html.basic constant.character.entity.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000ff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- HTML - A Tag -->
+		<dict>
+			<key>name</key>
+			<string>html a tag</string>
+			<key>scope</key>
+			<string>text.html meta.tag.a - string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#106800ff</string>
+			</dict>
+		</dict>
+		<!-- HTML - img Tag -->
+		<dict>
+			<key>name</key>
+			<string>html img tag</string>
+			<key>scope</key>
+			<string>text.html meta.tag.img - string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6d232eff</string>
+			</dict>
+		</dict>
+		<!-- HTML - form Tag -->
+		<dict>
+			<key>name</key>
+			<string>html form tag</string>
+			<key>scope</key>
+			<string>text.html meta.tag.form - string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9700ff</string>
+			</dict>
+		</dict>
+		<!-- HTML - table Tag -->
+		<dict>
+			<key>name</key>
+			<string>html table</string>
+			<key>scope</key>
+			<string>text.html meta.tag.table - string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009079ff</string>
+			</dict>
+		</dict>
+
+		<!-- ### Javascript ### -->
+
+		<!-- JS - Embedded -->
+		<dict>
+			<key>name</key>
+			<string>js embedded</string>
+			<key>scope</key>
+			<string>source.js.embedded.html punctuation.definition.tag - source.php, source.js.embedded.html entity.name.tag.script, source.js.embedded entity.other.attribute-name - source.js string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#842b44ff</string>
+			</dict>
+		</dict>
+		<!-- JS- Comment -->
+		<dict>
+			<key>name</key>
+			<string>js comment</string>
+			<key>scope</key>
+			<string>source.js comment - source.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9a9a9aff</string>
+			</dict>
+		</dict>
+		<!-- JS - meta function -->
+		<dict>
+			<key>name</key>
+			<string>js meta function</string>
+			<key>scope</key>
+			<string>source.js meta.function - source.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000ff</string>
+			</dict>
+		</dict>
+		<!-- JS - intance and support function -->
+		<dict>
+			<key>name</key>
+			<string>js instance and support.function</string>
+			<key>scope</key>
+			<string>source.js meta.class - source.php, source.js support.function - source.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#24c696ff</string>
+			</dict>
+		</dict>
+		<!-- JS - String -->
+		<dict>
+			<key>name</key>
+			<string>js string</string>
+			<key>scope</key>
+			<string>source.js string - source.php, source.js keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0035ffff</string>
+			</dict>
+		</dict>
+		<!-- JS - Support -->
+		<dict>
+			<key>name</key>
+			<string>js support</string>
+			<key>scope</key>
+			<string>source.js support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7e00b7ff</string>
+			</dict>
+		</dict>
+		<!-- JS - Storage -->
+		<dict>
+			<key>name</key>
+			<string>js storage</string>
+			<key>scope</key>
+			<string>source.js storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000ff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- JS - storage (not function) / bool / new / braces -->
+		<dict>
+			<key>name</key>
+			<string>js storage (not function) / bool / new / braces</string>
+			<key>scope</key>
+			<string>source.js storage - storage.type.function - source.php, source.js constant - source.php, source.js keyword - source.php, source.js variable.language, source.js meta.brace, source.js punctuation.definition.parameters.begin, source.js punctuation.definition.parameters.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#05208cff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- JS - regexp -->
+		<dict>
+			<key>name</key>
+			<string>js regexp</string>
+			<key>scope</key>
+			<string>source.js string.regexp, source.js string.regexp constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#106800ff</string>
+			</dict>
+		</dict>
+
+		<!-- ### CSS ### -->
+
+		<!-- CSS - embedded -->
+		<dict>
+			<key>name</key>
+			<string>css embedded</string>
+			<key>scope</key>
+			<string>source.css.embedded.html punctuation.definition.tag, source.css.embedded.html entity.name.tag.style, source.css.embedded entity.other.attribute-name - meta.selector</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8d00b7ff</string>
+			</dict>
+		</dict>
+		<!-- CSS - @import -->
+		<dict>
+			<key>name</key>
+			<string>css @import</string>
+			<key>scope</key>
+			<string>source.css meta.at-rule.import.css, source.css meta.at-rule.font-face.css, source.css meta.at-rule.font-face.css punctuation.section.property-list.css, source.css keyword.control.at-rule.font-face.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009c7fff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- CSS !important -->
+		<dict>
+			<key>name</key>
+			<string>css @important</string>
+			<key>scope</key>
+			<string>source.css keyword.other.important</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ee000bff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- CSS - @media and all other rules -->
+		<dict>
+			<key>name</key>
+			<string>css @media</string>
+			<key>scope</key>
+			<string>source.css meta.at-rule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#430303ff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- CSS - String -->
+		<dict>
+			<key>name</key>
+			<string>css string</string>
+			<key>scope</key>
+			<string>source.css string, source.css variable.parameter.misc.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#106800ff</string>
+			</dict>
+		</dict>
+		<!-- CSS - selector/prop-list -->
+		<dict>
+			<key>name</key>
+			<string>css selector/prop-list</string>
+			<key>scope</key>
+			<string>source.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff00ffff</string>
+			</dict>
+		</dict>
+		<!-- CSS - punctuation -->
+		<dict>
+			<key>name</key>
+			<string>css punctuation</string>
+			<key>scope</key>
+			<string>source.css punctuation.separator - source.php, source.css punctuation.terminator - source.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff00ffff</string>
+			</dict>
+		</dict>
+		<!-- CSS - selector pseudo element -->
+		<dict>
+	      <key>name</key>
+	      <string>css selector pseudo element</string>
+	      <key>scope</key>
+	      <string>source.css entity.other.attribute-name.pseudo-class.css, source.css meta.attribute-selector.css, source.css entity.other.attribute-name.pseudo-element.css</string>
+	      <key>settings</key>
+	      <dict>
+	        <key>foreground</key>
+	        <string>#660066</string>
+	      </dict>
+    	</dict>
+    	<!-- CSS - property name -->
+		<dict>
+			<key>name</key>
+			<string>css property name</string>
+			<key>scope</key>
+			<string>source.css support.type.property-name.css, source.css support.function.misc.css, source.css punctuation.section.function.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000a0ff</string>
+			</dict>
+		</dict>
+		<!-- CSS - property value -->
+		<dict>
+			<key>name</key>
+			<string>css property value</string>
+			<key>scope</key>
+			<string>source.css support.constant.property-value.css, source.css constant.numeric.css, source.css keyword.other.unit.css, source.css support.constant.color.w3c-standard-color-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000ffff</string>
+			</dict>
+		</dict>
+		<!-- CSS - rgb color -->
+		<dict>
+			<key>name</key>
+			<string>css rgb color</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.property-value.css constant.other.color.rgb-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#408080ff</string>
+			</dict>
+		</dict>
+		<!-- CSS - font-names -->
+		<dict>
+			<key>name</key>
+			<string>css font-names</string>
+			<key>scope</key>
+			<string>source.css support.constant.font-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<!-- CSS - Separator -->
+		<dict>
+			<key>name</key>
+			<string>css separator</string>
+			<key>scope</key>
+			<string>source.css meta.selector.css punctuation.separator.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000ff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+
+		<!-- ### PHP ### -->
+
+		<!-- PHP - begin/end block-->
+		<dict>
+			<key>name</key>
+			<string>php begin/end block</string>
+			<key>scope</key>
+			<string>source.php punctuation.section.embedded.begin, source.php punctuation.section.embedded.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ee000bff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- PHP - php -->
+		<dict>
+			<key>name</key>
+			<string>php</string>
+			<key>scope</key>
+			<string>source.php - punctuation.section</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000ff</string>
+			</dict>
+		</dict>
+		<!-- PHP - variable -->
+		<dict>
+			<key>name</key>
+			<string>php variable</string>
+			<key>scope</key>
+			<string>source.php variable, source.php meta.function.arguments</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0066ff</string>
+			</dict>
+		</dict>
+		<!-- PHP - punctuation -->
+		<dict>
+			<key>name</key>
+			<string>php punctuation</string>
+			<key>scope</key>
+			<string>source.php punctuation - string - variable - meta.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#05208cff</string>
+			</dict>
+		</dict>
+		<!-- PHP - storage.type -->
+		<dict>
+			<key>name</key>
+			<string>php storage.type</string>
+			<key>scope</key>
+			<string>source.php storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0a8b96ff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- PHP - keyword general / storage misc -->
+		<dict>
+			<key>name</key>
+			<string>php keyword general / storage misc</string>
+			<key>scope</key>
+			<string>source.php keyword - comment, source.php storage.type.class, source.php storage.type.interface, source.php storage.modifier, source.php constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009714ff</string>
+			</dict>
+		</dict>
+		<!-- PHP - support / storage / operator -->
+		<dict>
+			<key>name</key>
+			<string>php support / storage / operator</string>
+			<key>scope</key>
+			<string>source.php support, source.php storage, source.php keyword.operator, source.php storage.type.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0035ffff</string>
+			</dict>
+		</dict>
+		<!-- PHP - variable global -->
+		<dict>
+			<key>name</key>
+			<string>php variable global</string>
+			<key>scope</key>
+			<string>source.php variable.other.global</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0092f2ff</string>
+			</dict>
+		</dict>
+		<!-- PHP - support constant -->
+		<dict>
+			<key>name</key>
+			<string>php support constant</string>
+			<key>scope</key>
+			<string>source.php support.constant, source.php constant.language.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#551d02ff</string>
+			</dict>
+		</dict>
+		<!-- PHP - string -->
+		<dict>
+			<key>name</key>
+			<string>php string</string>
+			<key>scope</key>
+			<string>source.php string, source.php string keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e20000ff</string>
+			</dict>
+		</dict>
+		<!-- PHP - string variable -->
+		<dict>
+			<key>name</key>
+			<string>php string variable</string>
+			<key>scope</key>
+			<string>source.php string.quoted.double variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff6200ff</string>
+			</dict>
+		</dict>
+		<!-- PHP - comment general -->
+		<dict>
+			<key>name</key>
+			<string>php comment general</string>
+			<key>scope</key>
+			<string>source.php comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb404ff</string>
+			</dict>
+		</dict>
+
+		<!-- ### SCSS ### -->
+
+		<!-- SCSS - selector/prop-list -->
+		<dict>
+			<key>name</key>
+			<string>scss selector/prop-list</string>
+			<key>scope</key>
+			<string>source.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff00ffff</string>
+			</dict>
+		</dict>
+		<!-- SCSS - property name -->
+		<dict>
+			<key>name</key>
+			<string>scss property name</string>
+			<key>scope</key>
+			<string>source.scss support.type.property-name.scss, source.scss support.function.misc.scss, source.scss punctuation.section.function.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000a0ff</string>
+			</dict>
+		</dict>
+		<!-- SCSS - property value -->
+		<dict>
+			<key>name</key>
+			<string>scss property value</string>
+			<key>scope</key>
+			<string>source.scss support.constant.property-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000ffff</string>
+			</dict>
+		</dict>
+		<!-- SCSS - constant numeric -->
+		<dict>
+			<key>name</key>
+			<string>scss constant numeric</string>
+			<key>scope</key>
+			<string>source.scss constant.numeric.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000ffff</string>
+			</dict>
+		</dict>
+		<!-- SCSS - keyword.other.unit.scss -->
+		<dict>
+			<key>name</key>
+			<string>scss unit</string>
+			<key>scope</key>
+			<string>source.scss keyword.other.unit.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000ffff</string>
+			</dict>
+		</dict>
+		<!-- SCSS - rgb color -->
+		<dict>
+			<key>name</key>
+			<string>scss rgb color</string>
+			<key>scope</key>
+			<string>source.scss constant.other.color.rgb-value.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#408080ff</string>
+			</dict>
+		</dict>
+		<!-- SCSS - selector pseudo element -->
+		<dict>
+			<key>name</key>
+			<string>scss selector pseudo element</string>
+			<key>scope</key>
+			<string>source.scss entity.other.attribute-name.pseudo-class.css, source.scss meta.attribute-selector.scss, source.scss entity.other.attribute-name.pseudo-element.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#660066</string>
+			</dict>
+		</dict>
+		<!-- SCSS variable -->
+		<dict>
+			<key>name</key>
+			<string>scss variable</string>
+			<key>scope</key>
+			<string>source.scss variable, source.scss meta.set.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4D4D4D</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- SCSS - string -->
+		<dict>
+			<key>name</key>
+			<string>scss string</string>
+			<key>scope</key>
+			<string>source.scss string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#106800ff</string>
+			</dict>
+		</dict>
+		<!-- SCSS - font name -->
+		<dict>
+			<key>name</key>
+			<string>scss font name</string>
+			<key>scope</key>
+			<string>source.scss support.constant.font-name.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+			</dict>
+		</dict>
+		<!-- SCSS - @import / @font-face -->
+		<dict>
+			<key>name</key>
+			<string>scss @import / @font-face</string>
+			<key>scope</key>
+			<string>source.scss meta.at-rule.import.scss, source.scss meta.at-rule.fontface.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009c7fff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- SCSS - @important -->
+		<dict>
+			<key>name</key>
+			<string>scss @important</string>
+			<key>scope</key>
+			<string>source.scss keyword.other.important</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ee000bff</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- SCSS - @charset / @content / @each / @for / and all other rules -->
+		<dict>
+			<key>name</key>
+			<string>scss @charset @content @each @for</string>
+			<key>scope</key>
+			<string>source.scss meta.at-rule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#990000</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!-- SCSS - @else / @if / @include -->
+		<dict>
+			<key>name</key>
+			<string>scss @else @if @include</string>
+			<key>scope</key>
+			<string>source.scss meta.at-rule.else.scss, source.scss meta.at-rule.if.scss, source.scss meta.at-rule.include.scss, source.scss meta.at-rule.while.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#006600</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
